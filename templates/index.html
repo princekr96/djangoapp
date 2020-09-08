@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Know about ME!!</title>
+        <link rel="icon" href="{% static 'images/1.png' %}" type="image/png" sizes="16*16">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    
+    <body>
+        <header class="main" id="head">
+            <div class="myDP">
+                <img src="{% static 'images/Prince.jpg' %}">
+            </div>
+            <div class="basic">
+                <h1>Kumar Prince</h1>
+                <h3>Software Engineer at Wells Fargo</h3>
+                <p>BANGALORE, INDIA</p>
+                <p><b>PREVIOUS:</b> AUTOMATION TEST ENGINEER AT SAP <br>
+                <b>EDUCATION:</b> B.E IN COMPUTER SCIENCE & ENGINEERING</p>
+                <a href="mydetails">VIEW MORE</a>
+            </div>
+        </header>
+        
+        <section class="main" id="sec">
+            <div class = "aboutme" id="aboutme">
+                <h2>About Me</h2>
+                <p class="intro"> Full-Stack Developer.<br>
+                    A Tech Enthusiast, Quick Learner and Hard-working guy.<br>
+                    Very Keen about Trending technology and Gadgets.<br>
+                    Try to learn new things every time as i like to explore the various areas.<br>
+                    Learning guitar, coding, etc.
+                </p>
+                <a href="mydetails">VIEW MORE</a>
+            </div>
+        
+            <div class="pd" id="pd">
+                <h2>Personal Details</h2>
+                <ul>
+                    <li><b>BIRTHDAY: </b>9 JUNE 1995</li>
+                    <li><b>SKYPE: </b>princekr700</li>
+                    <li><b>PHONE: </b>+91-9074833617</li>
+                    <li><b>MARITAL: </b>Single</li>
+                    <li><b>NATIONALITY: </b>Indian</li>
+                    <li><b>EMAIL: </b>princekr700@gmail.com</li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer class = "footer_contentinfo" role="contentinfo">
+            <div class="social">
+                <a href="https://www.facebook.com/kumar.prince.545">
+                    <img src="{% static 'images/fb_icon.png' %}" alt="fb">
+                </a>
+                <a href="https://www.instagram.com/kr_prnc/">
+                    <img src="{% static 'images/insta_icon.png' %}" alt="insta">
+                </a>
+                <a href="https://www.linkedin.com/in/kumar-prince-697650b1/">
+                    <img src="{% static 'images/linkedin_icon.png' %}" alt="linkedin">
+                </a>
+            </div>
+            
+            <div class="legal">
+                <span>
+                    Copyright ©
+                    <span class="date">2020</span>
+                    <span class="no-wrap">All rights reserved.</span>
+                </span>
+            </div>
+            
+        </footer>
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>

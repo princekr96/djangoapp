@@ -1,0 +1,192 @@
+/**********************************
+* Index Page
+
+1. Body
+2. Header Hyperlink & Section Hyperlink
+3. Header customisation
+4. 
+**********************************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.main a {
+    background-color: #003925;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main a:hover, .main a:active {
+    background-color: #D4B56A;
+}
+/* Header Section */
+
+#head {
+    background-image: url("images/office.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 120%;
+    text-align: left;
+    padding: 60px;
+}
+
+.myDP img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: green 0 0 10px;
+}
+
+.myDP img:hover { border-width: 8px; }
+
+.basic h1 {
+    margin-bottom: 0px;
+    color: #218c74;
+    font-size: 38px;
+}
+
+.basic h3 {
+    margin-top: 0px;
+    margin-bottom: -10px;
+    color: #d63031;
+    font-size: 18px;
+}
+
+.basic p {
+    color: #2C3A47;
+    margin-top: 8px;
+}
+
+/* Details Section */
+#sec {
+    background-color: black;
+    color: #D4C26A;
+    padding: 30px 0 60px 60px;
+}
+
+.aboutme {
+    float: left;
+    margin-right: 200px;
+}
+
+.aboutme p {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: white;
+}
+
+h2::first-letter {
+    font-size: 50px;
+    color: white;
+}
+
+.pd ul {
+    text-indent: 15px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+
+/* Footer Section */
+.footer_contentinfo {
+    background: white;
+    padding: 5px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+.social img:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.legal {
+    margin-left: 45px;
+}
+
+/************************************
+* About me - View More
+*************************************/
+
+/*Header*/
+.abt {
+    background-image: url("images/abt.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 4px;
+}
+
+.abt h1{
+    text-align: center;
+    color: #7C0505;
+    font-size: 40px;
+    padding-top: 225px;
+}
+
+#head2 {
+    height: 360px;
+    text-align: center;
+}
+
+#head2 a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background: rgba(80, 90, 180, 0.3);
+    text-decoration: none;
+    color: #7C0505;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section */
+
+#sec2 {
+    background-image: url("images/abt2.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#sec2 div {
+    background: rgba(80, 90, 180, 0.3);
+    padding: 20px 200px 20px 200px;
+    letter-spacing: 3px;
+}
+
+#sec2 h3 {
+    border-style: solid;
+    background-color: indigo;
+    text-align: center;
+    font-size: 30px;
+}
+
+#exp {
+    color: turquoise;
+}
+
+#sec2 p {
+    font-size: 20px;
+}
